@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "californian fb";
+  background-image: url("background.png");
+  background-size: 100%;
+}
+
+nav a {
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  align-content: center;
+}
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.space {
+  margin-left: 100px;
+}
+.tourwhen {
+  width: 200px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-top: 50px;
+}
+.searchbar {
+  margin-top: 130px;
+  margin-left: 80px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.good {
+  color: orangered;
+  font-weight: bold;
+}
+button {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.enter {
+  border: 5px;
+  border-radius: 10px solid white;
+}
